@@ -129,6 +129,6 @@ class SocketClient
      */
     protected function getSocketAddress()
     {
-        return sprintf('ssl://%s:%s', $this->host, $this->port);
+        return sprintf('tls://%s:%s', $this->host, $this->port);
     }
 }
